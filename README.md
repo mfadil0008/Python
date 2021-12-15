@@ -6,7 +6,7 @@ List File to CSV
 Sometimes we want to input someone's name and id based on the file name into an excel or csv file. When we input the name and id one by one, it takes a lot of time.
 
 ### 1. Read list file and save to list_file.txt
-`!dir list_file /b` print all file in directoru list_file and `>` for save all output to list_file.txt
+`!dir list_file /b` print all file in directory list_file and `>` for save all output to list_file.txt
 ```python
 !dir list_file /b
 !dir list_file /b > list_file.txt
